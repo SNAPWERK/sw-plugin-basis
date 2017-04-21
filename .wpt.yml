@@ -1,0 +1,22 @@
+type: plugin
+files:
+    src:
+        - '**'
+        - '!node_modules/**'
+        - '!vendor/**'
+        - '!tests/**'
+        - '!test/**'
+        - '!build/**'
+        - '!tmp/**'
+        - '!README.md'
+    main: plugin.php
+    assets:
+        - assets/*.png
+        - assets/*.svg
+gh:
+    repo: SNAPWERK/XXXXXXXXX
+    username: SNAPWERK
+wporg:
+    slug: sw-XXXXXXXXX
+    username: snapwerk
+    buildPath: 'y'
